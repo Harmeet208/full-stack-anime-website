@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "harmeet",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/material": "^5.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13",
+    "validator": "^13.6.0"
+  }
+}
